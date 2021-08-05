@@ -283,7 +283,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 60px;
+    font-size: 48px;
+    font-weight: bold;
 }
 
 .navbar {
@@ -476,6 +477,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    font-weight: normal;
 }
 
 .icon-lg {
@@ -703,30 +705,35 @@ p {
     margin: auto auto auto auto;
 }
 
+h1 {
+    color: #333333!important;
+}
+
 h2 {
-    font-size: 22px;
+    font-size: 30px;
+    font-weight: 700;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 1.375em;
+    font-size: 19px;
     text-transform: uppercase;
     font-weight: 700;
+    color: #364577!important;
+}
+
+h4 {
     color: #333333!important;
+}
+
+ul {
+    list-style: none;
 }
 
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
-}
-
-h4 {
-    color: #333333!important;
 }
 
 .icons {
@@ -806,10 +813,6 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
-}
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
 }
 
 .bg-banniere {
