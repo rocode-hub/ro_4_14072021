@@ -677,8 +677,15 @@ a {
     margin: auto auto auto auto;
 }
 
+.portfolio-bloc-text {
+    font-size: 18px;
+    line-height: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
 p {
-    font-size: 1.25em;
+    font-size: 19px;
 }
 
 .tight-width-whitespace {
@@ -750,7 +757,6 @@ ul {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
     margin-top: 50px;
 }
 
