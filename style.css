@@ -709,7 +709,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h1 {
@@ -752,6 +752,10 @@ ul {
     color: #FFFFFF!important;
 }
 
+.black-text {
+    color: #333333!important;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -792,7 +796,7 @@ ul {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #333333!important;
 }
 
 .btn-atomic-tangerine:hover {
