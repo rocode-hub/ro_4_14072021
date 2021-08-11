@@ -18,19 +18,9 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}
-
 .bloc {
     width: 100%;
     clear: both;
-/*    background: 50% 50% no-repeat; */
     padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -282,11 +272,6 @@ a:hover {
     padding-left: 0;
 }
 
-#bloc-1-hero h1 {
-    font-size: 48px;
-    font-weight: bold;
-}
-
 .navbar {
     margin-bottom: 0;
     z-index: 1;
@@ -507,6 +492,9 @@ button {
 }
 
 .form-control {
+    font-size: 18px;
+    font-weight: bold;
+    color: #364577;
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
@@ -688,6 +676,16 @@ p {
     font-size: 19px;
 }
 
+q {
+    line-height: 26px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+cite {
+    font-size: 17px;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -714,6 +712,8 @@ p {
 
 h1 {
     color: #333333!important;
+    font-size: 48px;
+    font-weight: bold;
 }
 
 h2 {
@@ -1047,4 +1047,14 @@ ul {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+#form_1 {
+    font-size: 18px;
+    color: #773636;
+}
+
+#googlemap {
+    border: 2px solid lightgray;
+    padding: 20px 0;
 }
